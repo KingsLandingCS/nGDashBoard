@@ -1,0 +1,54 @@
+// Sidebar styles
+.sidebar {
+  width: 250px;
+  height: 98vh;
+  // background: #1A1A1A;
+  background: linear-gradient(0deg, #1A1A1A, #3F3F46);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.admin-portal {
+  margin-bottom: 10px;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #fff, hsla(0, 0%, 100%, 0));
+  margin-bottom: 20px;
+}
+
+.sidebar nav {
+  height: 100%;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-left: 250px;
+  /* Match the sidebar width */
+  padding: 20px;
+}

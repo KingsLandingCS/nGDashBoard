@@ -1,1 +1,23 @@
-<p>sidebar works!</p>
+<aside class="sidebar">
+  <nav class="d-flex flex-column">
+    <h5 class="admin-portal "><i class="ri-user-settings-fill me-2"></i>Admin Portal</h5>
+    <hr class="divider">
+    <ul>
+      <li><a routerLink="../admin-components/dashboard"><i class="ri-dashboard-fill me-2"></i>Dashboard</a></li>
+      <li><a routerLink="../admin-components/table"><i class="ri-grid-fill me-2"></i>Tables</a></li>
+      <li><a routerLink="../admin-components/billing"><i class="ri-bill-fill me-2"></i>Billing</a></li>
+      <li><a routerLink="../admin-components/virtual-reality"><i class="ri-box-3-fill me-2"></i>Virtual Reality</a></li>
+      <li><a routerLink="../admin-components/notification"><i class="ri-notification-2-fill me-2"></i>Notifications</a></li>
+      <h5 class="my-4">Account Pages</h5>
+      <li><a routerLink="../admin-components/profile"><i class="ri-profile-fill me-2"></i>Profile</a></li>
+      <li><a routerLink="../../auth-portal/sign-in"><i class="ri-login-box-fill me-2"></i>Sign In</a></li>
+      <li><a routerLink="../../auth-portal/sign-up"><i class="ri-account-pin-box-fill me-2"></i>Sign Up</a></li>
+      <!-- Add more links as needed -->
+    </ul>
+
+    <div class="mt-auto">
+      <button type=" button" class="btn btn-secondary d-block my-3 w-100">Secondary</button>
+      <button type="button" class="btn btn-secondary d-block w-100">Secondary</button>
+    </div>
+  </nav>
+</aside>
